@@ -1,3 +1,5 @@
+{
+ [
   {
     id: "1",
     apellido: "Armani",
@@ -221,4 +223,6 @@
     posicion: "Arquero",
     edad: 30,
     imagen: "none",
-  }
+  },
+ ]
+}
