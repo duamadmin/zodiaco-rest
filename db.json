@@ -1,47 +1,17 @@
 {
-	"jugadores": [
-		{
-		"apellido": "Armani",
-		"edad": 30,
-		"id": 1,
-		"imagen": "none",
-		"nombre": "Franco",
-		"posicion": "Arquero",
-		},
-		{
-		"apellido": "Martínez Quarta",
-		"edad": 30,
-		"id": 2,
-		"imagen": "none",
-		"nombre": "Lucas",
-		"posicion": "Defensor",
-		},
-		{
-		"apellido": "Tagliafico",
-		"edad": 30,
-		"id": 3,
-		"imagen": "none",
-		"nombre": "Nicolás",
-		"posicion": "Defensor",
-		},
-		{
-		"apellido": "Montiel",
-		"edad": 30,
-		"id": 4,
-		"imagen": "none",
-		"nombre": "Gonzalo",
-		"posicion": "Defensor",
-		},
-		{
-		"apellido": "Paredes",
-		"edad": 30,
-		"id": 5,
-		"imagen": "none",
-		"nombre": "Leandro",
-		"posicion": "Volante",
-		}
-	],
-	"votos": {
-		"disponibles": 1
-	}
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "votos": {
+    "disponibles": 1
+  }
 }
